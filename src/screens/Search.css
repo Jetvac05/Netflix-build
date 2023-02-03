@@ -1,0 +1,29 @@
+html{
+    background-color: black;
+}
+.Results{
+    color: white;
+    margin-right: 20px;
+    width: 15%;
+    transition: transform 450ms;
+    margin-top: 10px;}
+
+.Result:hover{
+    transform: scale(1.08);
+    opacity: 1;
+}
+.search__title{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem; 
+}
+.search__poster {
+    display: flex;
+    flex-wrap: wrap;
+    }
+.results__img {
+    max-height: 250px;
+    margin-right: 10px;
+    width: 100%;
+}
